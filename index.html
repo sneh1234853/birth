@@ -5,9 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Happy Birthday Khushi!</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Added style for big "I LOVE YOU" text */
+    .love-you {
+      margin-top: 30px;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #ff1493;
+      text-align: center;
+      letter-spacing: 0.1em;
+      animation: fadeIn 2s ease forwards;
+    }
+  </style>
 </head>
 <body>
   <div class="full-page">
+
+    
+    <img src="images/img1.jpg" class="decor-img top-left" alt="Decor Image" />
+    <img src="images/img2.jpg" class="decor-img top-right" alt="Decor Image" />
+    <img src="images/img3.jpg" class="decor-img bottom-left" alt="Decor Image" />
+    <img src="images/img4.jpg" class="decor-img bottom-right" alt="Decor Image" />
+    <img src="images/img5.jpg" class="decor-img center-background" alt="Decor Image" />
 
     <!-- Heart Animation in the Center -->
     <div class="heart-animation"></div>
@@ -15,14 +34,22 @@
     <!-- Main Section -->
     <div class="container">
       <div class="greeting">
-        <h1>Happy Birthday Khushi!</h1>
+        <h1>Happy Birthday, Khushi! 💖</h1>
         <p class="personal-note">
-          A very very happy birthday to my favourite person.<br /><br />
-          A very very happy birthday to a person who is my best friend, close friend, and girlfriend — everything to me.<br />
-          A person who motivates me a lot, a person who encourages and loves me.<br />
-          One of my favourite people in the world! 🎉🎂
+          Wishing you the happiest birthday ever! 🎉<br /><br />
+          This is something special for someone who means the world to me — my best friend, my girlfriend, my closest companion, and my everything.<br /><br />
+          For me, titles don’t matter. What truly matters is the beautiful relationship and deep bond we share — and that bond is incredibly precious to me. 💫<br /><br />
+          You're the one who constantly motivates me, supports me, encourages me, and showers me with so much love.<br /><br />
+          You are, and always will be, one of my favorite people in this world. ❤️🎂<br /><br />
+          Thank you for being in my life. I'm truly lucky to have you. 🌸
         </p>
+
+        <!-- Big I LOVE YOU text -->
+        <div class="love-you">I LOVE YOU</div>
       </div>
+
+      <!-- Moved button inside container -->
+      <button class="thankyou-btn" onclick="alert('Thank you for being the amazing person you are! Love you 💕')">Thank you for being you 💖</button>
     </div>
 
     <!-- Confetti Animation -->
